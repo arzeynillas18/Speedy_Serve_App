@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "713651920143",
+    "project_id": "speedy-serve-170b7",
+    "storage_bucket": "speedy-serve-170b7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713651920143:android:3e9c1d8b14b84a9ca7327a",
+        "android_client_info": {
+          "package_name": "com.example.speedyserve"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAhI6iq7nUF26I2f_YOgrpv1_yWaCBuI78"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
