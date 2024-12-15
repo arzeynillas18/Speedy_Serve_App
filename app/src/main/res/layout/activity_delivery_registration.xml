@@ -253,7 +253,7 @@
                 <Button
                     android:id="@+id/emaillid"
                     android:layout_width="95dp"
-                    android:layout_height="40dp"
+                    android:layout_height="50dp"
                     android:layout_marginLeft="15dp"
                     android:layout_weight="1"
                     android:background="@drawable/btnred"
@@ -265,7 +265,7 @@
                 <Button
                     android:id="@+id/Phonenumber"
                     android:layout_width="97dp"
-                    android:layout_height="40dp"
+                    android:layout_height="50dp"
                     android:layout_marginLeft="30dp"
                     android:layout_marginRight="20dp"
                     android:layout_weight="1"

@@ -23,11 +23,9 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 
-
 public class MainActivity extends AppCompatActivity {
 
     ImageView imageView;
-    TextView textView;
     FirebaseAuth Fauth;
     FirebaseDatabase firebaseDatabase;
     DatabaseReference databaseReference;
@@ -37,28 +35,15 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        imageView = (ImageView)findViewById(R.id.imageView);
-        textView = (TextView)findViewById(R.id.textView7);
+        imageView = findViewById(R.id.imageView);
 
         imageView.animate().alpha(0f).setDuration(0);
-        textView.animate().alpha(0f).setDuration(0);
 
-        imageView.animate().alpha(1f).setDuration(1000).setListener(new AnimatorListenerAdapter() {
-            /**
-             * {@inheritDoc}
-             *
-             * @param animation
-             */
-            @Override
-            public void onAnimationEnd(Animator animation) {
-                textView.animate().alpha(1f).setDuration(800);
+        imageView.animate().alpha(1f).setDuration(1000);
 
-            }
-        });
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-
                 Fauth = FirebaseAuth.getInstance();
                 if(Fauth.getCurrentUser()!=null){
                     if(Fauth.getCurrentUser().isEmailVerified()){
@@ -72,24 +57,20 @@ public class MainActivity extends AppCompatActivity {
                                 if(role.equals("Chef")){
                                     startActivity(new Intent(MainActivity.this,ChefFoodPanel_BottomNavigation.class));
                                     finish();
-
                                 }
                                 if(role.equals("Customer")){
                                     startActivity(new Intent(MainActivity.this,CustomerFoodPanel_BottomNavigation.class));
                                     finish();
-
                                 }
                                 if(role.equals("DeliveryPerson")) {
                                     startActivity(new Intent(MainActivity.this, DeliveryFoodPanel_BottomNavigation.class));
                                     finish();
                                 }
-
                             }
 
                             @Override
                             public void onCancelled(@NonNull DatabaseError error) {
                                 Toast.makeText(MainActivity.this,error.getMessage(),Toast.LENGTH_LONG).show();
-
                             }
                         });
                     }else{
@@ -110,14 +91,11 @@ public class MainActivity extends AppCompatActivity {
                         Fauth.signOut();
                     }
                 }else {
-
                     Intent intent = new Intent(MainActivity.this, MainMenu.class);
                     startActivity(intent);
                     finish();
                 }
-
             }
         },3000);
-
     }
 }

@@ -12,7 +12,7 @@ import androidx.fragment.app.Fragment;
 import com.example.speedyserve.R;
 
 
-public class ChefPendingOrderFragment extends Fragment {
+public class ChefPendingOrdersFragment extends Fragment {
 
     @Nullable
     @Override

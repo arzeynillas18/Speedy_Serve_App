@@ -105,17 +105,18 @@
             android:textAlignment="center"
             android:textColor="@color/Black"
             android:textSize="18sp"/>
+
         <Button
-            android:layout_width="105dp"
-            android:layout_height="40dp"
             android:id="@+id/btnEmail"
-            android:background="@drawable/btnred"
-            android:text="Email"
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginTop="15dp"
-            android:textColor="@color/white"
+            android:background="@drawable/btnred"
             android:drawableLeft="@drawable/whitemail"
             android:padding="10dp"
-            android:layout_gravity="center"/>
+            android:text="Email"
+            android:textColor="@color/white" />
 
     </LinearLayout>
 

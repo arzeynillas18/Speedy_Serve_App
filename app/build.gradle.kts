@@ -51,6 +51,17 @@ dependencies {
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.hbb20:ccp:2.5.4")
     implementation ("androidx.swiperefreshlayout:swiperefreshlayout:1.1.0")
+    implementation ("com.github.bumptech.glide:glide:4.15.1")
+    implementation ("jp.wasabeef:glide-transformations:4.3.0")
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.15.1")
+    implementation ("com.google.firebase:firebase-database:20.3.0")
+
+
+    implementation ("com.google.android.material:material:1.8.0")
+    implementation ("com.google.android.gms:play-services-auth:19.2.0")
+
+
+
 
 
 

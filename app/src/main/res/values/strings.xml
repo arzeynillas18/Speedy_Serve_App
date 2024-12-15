@@ -5,8 +5,9 @@
     <string name="title_notifications">Notifications</string>
 
     <string-array name="State">
-        <item>Maharashtra</item>
-        <item>Gujarat</item>
+        <item>Cebu</item>
+        <item>Metro Cebu</item>
+        <item>Central Visayas</item>
     </string-array>
 
     <string-array name="shipper">
@@ -15,45 +16,42 @@
     </string-array>
 
     <string-array name="DishName">
-        <item>Thepla</item>
-        <item>Dal Rice</item>
-        <item>Dhokla</item>
-        <item>Sabji Roti</item>
-        <item>Kadhi Khichdi</item>
-        <item>Puri bhaji</item>
-        <item>Dal Dhokdi</item>
-        <item>Undhiyu</item>
-        <item>Aloo Paratha</item>
-        <item>Patra</item>
-        <item>Khandvi</item>
-        <item>Gulab Jamun</item>
-        <item>SevTomato bhakri</item>
-        <item>Shrikhand</item>
-        <item>Palak Paneer</item>
-        <item>Khulcha</item>
-        <item>Makki di roti</item>
-        <item>Gobi Partha</item>
-        <item>Biryani</item>
-        <item>Rajma</item>
-        <item>Bhindi Fry</item>
-        <item>Dum Biryani</item>
-        <item>Rumali roti</item>
-        <item>Dal Makhni</item>
-        <item>Samosa</item>
-        <item>Kachori</item>
-        <item>Menduwada</item>
-        <item>Pulav</item>
-        <item>Pav Bhaji</item>
-        <item>Misal Pav</item>
-        <item>Mix Vegetable</item>
-        <item>Muffins</item>
-        <item>DalFry JerraRice</item>
-        <item>Bengali sweet</item>
-        <item>Puranpoli</item>
-        <item>Egg Curry</item>
-        <item>Pomfret Fish</item>
-        <item>Egg Bhurji</item>
-        <item>Dum chicken</item>
-        <item>Hyderabadi Chicken Biryni</item>
+        <item>Adobo</item>
+        <item>Sinigang na Baboy</item>
+        <item>Pancit Canton</item>
+        <item>Lechon</item>
+        <item>Laing</item>
+        <item>Kaldereta</item>
+        <item>Afritada</item>
+        <item>Nilagang Baka</item>
+        <item>Beef Kare-Kare</item>
+        <item>Lumpiang Shanghai</item>
+        <item>Empanada</item>
+        <item>Bicol Express</item>
+        <item>Puto</item>
+        <item>Dinuguan</item>
+        <item>Pinakbet</item>
+        <item>Balut</item>
+        <item>Laing</item>
+        <item>Binagoongan Baboy</item>
+        <item>Goto</item>
+        <item>Chicken Inasal</item>
+        <item>Binignit</item>
+        <item>Puto Bumbong</item>
+        <item>Turon</item>
+        <item>Halo-Halo</item>
+        <item>Maruya</item>
+        <item>Bangus Sisig</item>
+        <item>Ginisang Munggo</item>
+        <item>Pancit Malabon</item>
+        <item>Puto Maya</item>
+        <item>Champorado</item>
+        <item>Tinola</item>
+        <item>Bistek Tagalog</item>
+        <item>Chopsuey</item>
+        <item>Inihaw na Baboy</item>
+        <item>Pinaputok na Isda</item>
+        <item>Pepper Steak</item>
+        <item>Crabmeat Pandan</item>
     </string-array>
 </resources>
